@@ -1,13 +1,193 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Franco Leon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      background-color:rgb(232, 243, 245); /* Color crema cálido */
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center; background-color: rgb(214, 177, 122);"> ESTILO MANCAVE </h1>
+
+  <!--Creamos 2 columnas-->
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <!--COLUMNA 1-->
+      <div class="col">
+
+        <!--CARRUSEL DE IMAGENES-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="BLANCO.png" class="d-block w-100" alt="POLO BLANCO">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CAMISETA BLANCA</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="VERDE.png" class="d-block w-100" alt="POLO VERDE">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CAMISETA VERDE</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="NEGRO.png" class="d-block w-100" alt="POLO NEGRO">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>POLO NEGRO</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="BLANCO2.png" class="d-block w-100" alt="POLO BLANCO 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>POLO OVERSIDE COLOR BLANCO</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="BLANCO3.png" class="d-block w-100" alt="POLO BLANCO 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>POLO OVERSIDE COLOR BLANCO</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="AZUL.png" class="d-block w-100" alt="POLO AZUL">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>POLO OVERSIDE COLOR BLANCO</h5>
+                <p>TALLAS S, L, XL</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <figcaption class="figure-caption"><b>¡Asegura tu estilo con polos de calidad excepcional!</b> Descubre prendas
+          que combinan elegancia y comodidad, diseñadas para realzar tu imagen en
+          cualquier ocasión. Con una variedad de colores y diseños modernos, nuestros polos están hechos para durar,
+          asegurando un aspecto impecable con cada uso. ¡No te pierdas la oportunidad de elevar tu estilo con nuestras
+          prendas premium!</figcaption>
+        <!--FIN DE CARRUSEL-->
+
+
+      </div>
+      <!--COLUMNA 2-->
+      <div class="col">
+
+        <h2>Datos Personales: <span class="badge text-bg-secondary">Ahora!</h2>
+        <br>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombres" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellidos" aria-label="Last name">
+          </div>
+        </div>
+        <br>
+        <!--CUESTIONARIO SEGUNDA COLUMNA-->
+
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">GMAIL</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección 1</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Dirección 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Acepta términos y condiciones
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Registrar</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    </style>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+    <br>
+    <div class="p-3 mb-2 bg-black text-white">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col order-last">
+            INFORMACIÓN CORPORATIVA
+          </div>
+          <div class="col">
+            COLECCIONES
+          </div>
+          <div class="col order-first">
+            AYUDA
+            <div></div>
+
 </html>
